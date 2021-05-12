@@ -1,359 +1,358 @@
 .igemono > img {
-	    width: 200px;
-	        height: 400px;
-	}
+    width: 200px;
+    height: 400px;
+}
 
-	.mySlides {
-		    display: none;
-		        width: 1200px;
-			    height: 440px;
-		    }
+.mySlides {
+    display: none;
+    width: 1200px;
+    height: 440px;
+}
 
-		    .mySlides2 {
-			        display: none;
-				    width: 1000px;
-				        height: 440px;
-				}
+.mySlides2 {
+    display: none;
+    width: 1000px;
+    height: 440px;
+}
 
-				.sliding {
-					    margin-top: 8%;
-					        margin-left: 19%;
-					}
+.sliding {
+    margin-top: 8%;
+    margin-left: 19%;
+}
 
-					* {
-						*     margin: 0;
-						*         padding: 0;
-						*             color: #000;
-						*                 box-sizing: border-box;
-						*                 }
-						*
-						*                 a {
-							*                     text-decoration: none;
-							*                         outline: none;
-							*                         }
-							*
-							*                         .peace {
-								*                             margin-right: -100%;
-								*                                 float: right;
-								*                                     padding: 20px 180px;
-								*                                         margin-top: -1.6%;
-								*                                         }
-								*
-								*                                         .peace > li a{
-									*                                             font-size: 11.5px;
-									*                                                 float: right;
-									*                                                     font-weight: 400;
-									*                                                     }
-									*
-									*                                                     .red {
-										*                                                         color: red;
-										*                                                         }
-										*
-										*                                                         header > h2 {
-											*                                                             margin-left: 20px;
-											*                                                             }
-											*
-											*                                                             header > nav {
-												*                                                                 width: 600px;
-												*                                                                     height: 100%;
-												*                                                                     }
-												*
-												*                                                                     header ul {
-													*                                                                         width: 100%;
-													*                                                                             height: 100%;
-													*                                                                                 display: flex;
-													*                                                                                     justify-content: space-between;
-													*                                                                                     }
-													*
-													*                                                                                     header ul > li {
-														*                                                                                         font-size: 20px;
-														*                                                                                             height: 100%;
-														*                                                                                                 display: flex;
-														*                                                                                                     align-items: center;
-														*                                                                                                     }
-														*
-														*                                                                                                     .container {
-															*                                                                                                         width: 1440px;
-															*                                                                                                         }
-															*
-															*                                                                                                         header {
-																*                                                                                                             width: 100%;
-																*                                                                                                                 height: 80px;
-																*                                                                                                                     display: flex;
-																*                                                                                                                         align-items: center;
-																*                                                                                                                             justify-content: space-between;
-																*                                                                                                                             }
-																*
-																*                                                                                                                             ul {
-																	*                                                                                                                                 list-style-type: none;
-																	*                                                                                                                                     margin: 0;
-																	*                                                                                                                                         padding: 0;
-																	*                                                                                                                                            /* overflow: hidden; */
-																}
+* {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+}
 
-																li {
-																	    float: left;
-																    } 
+a {
+    text-decoration: none;
+    outline: none;
+}
 
-																    /* 여기서부터 드롭다운 css */
+.peace {
+    margin-right: -100%;
+    float: right;
+    padding: 20px 180px;
+    margin-top: -1.6%;
+}
 
-																    .menu,
-																    .menu ul,
-																    .menu li,
-																    .menu a {
-																	    	margin: 0;
-																			padding: 5px;
-																				border: none;
-																					outline: none;
-																				}
+.peace > li a{
+    font-size: 11.5px;
+    float: right;
+    font-weight: 400;
+}
 
-																				/* Menu */
-																				.menu {	
-																						height: 60px;
-																							width: 1100px;
+.red {
+    color: red;
+}
 
-																								-webkit-border-radius: 5px;
-																									-moz-border-radius: 5px;
-																										border-radius: 5px;
-																									}
+header > h2 {
+    margin-left: 20px;
+}
 
-																									.menu li {
-																											position: relative;
-																												list-style: none;
-																													float: left;
-																														display: block;
-																															height: 40px;
-																														}
+header > nav {
+    width: 600px;
+    height: 100%;
+}
 
-																														/* Links */
+header ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-																														.menu li a {
-																																display: block;
-																																	padding: 0 14px;
-																																		margin: 6px 0;
-																																			line-height: 28px;
-																																				text-decoration: none;
-																																					
-																																					border-left: 1px solid white;
-																																						border-right: 1px solid white;
+header ul > li {
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
-																																							font-family: Helvetica, Arial, sans-serif;
-																																								font-weight: bold;
-																																									font-size: 22px;
+.container {
+    width: 1440px;
+}
 
-																																										color: black;
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-																																											-webkit-transition: color .2s ease-in-out;
-																																												-moz-transition: color .2s ease-in-out;
-																																													-o-transition: color .2s ease-in-out;
-																																														-ms-transition: color .2s ease-in-out;
-																																															transition: color .2s ease-in-out;
-																																														}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* overflow: hidden; */
+}
 
-																																														.menu li:first-child a { border-left: none; }
-																																														.menu li:last-child a{ border-right: none; }
+li {
+    float: left;
+} 
 
-																																														.menu li:hover > a { color: #8fde62; }
+/* 여기서부터 드롭다운 css */
 
-																																														/* Sub Menu */
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+	margin: 0;
+	padding: 5px;
+	border: none;
+	outline: none;
+}
 
-																																														.menu ul {
-																																																position: absolute;
-																																																	top: 40px;
-																																																		left: 0;
+/* Menu */
+.menu {	
+	height: 60px;
+	width: 1100px;
 
-																																																			opacity: 0;
-																																																				
-																																																				background: white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
 
-																																																					-webkit-border-radius: 0 0 5px 5px;
-																																																						-moz-border-radius: 0 0 5px 5px;
-																																																							border-radius: 0 0 5px 5px;
+.menu li {
+	position: relative;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 40px;
+}
 
-																																																								-webkit-transition: opacity .25s ease .1s;
-																																																									-moz-transition: opacity .25s ease .1s;
-																																																										-o-transition: opacity .25s ease .1s;
-																																																											-ms-transition: opacity .25s ease .1s;
-																																																												transition: opacity .25s ease .1s;
-																																																											}
+/* Links */
 
-																																																											.menu li:hover > ul { opacity: 1; }
+.menu li a {
+	display: block;
+	padding: 0 14px;
+	margin: 6px 0;
+	line-height: 28px;
+	text-decoration: none;
+	
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 
-																																																											.menu ul li {
-																																																													height: 0;
-																																																														overflow: hidden;
-																																																															padding: 0;
-																																																															    
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 22px;
 
-																																																																-webkit-transition: height .25s ease .1s;
-																																																																	-moz-transition: height .25s ease .1s;
-																																																																		-o-transition: height .25s ease .1s;
-																																																																			-ms-transition: height .25s ease .1s;
-																																																																				transition: height .25s ease .1s;
-																																																																			}
+	color: black;
 
-																																																																			.menu li:hover > ul li {
-																																																																					height: 36px;
-																																																																						overflow: visible;
-																																																																							padding: 0;
-																																																																						}
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
 
-																																																																						.menu ul li a {
-																																																																								width: 220px;
-																																																																								    font-size: 15px;
-																																																																								    	
-																																																																								    	margin: 0;
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
 
-																																																																										border: none;
-																																																																											border-bottom: 1px solid white;
-																																																																										}
+.menu li:hover > a { color: #8fde62; }
 
-																																																																										.menu ul li:last-child a { border: none; }
+/* Sub Menu */
 
-																																																																										.igemono1 {
-																																																																											    margin-left: 300px;
-																																																																											        float: left;
-																																																																											}
+.menu ul {
+	position: absolute;
+	top: 40px;
+	left: 0;
 
-																																																																											.igemono1 > img{
-																																																																												    border: 1.5px solid black;
-																																																																											    }
+	opacity: 0;
+	
+	background: white;
 
-																																																																											    .button1 {
-																																																																												        position: absolute;
-																																																																													    margin-left: -173px;
-																																																																													        margin-top: 215px;
-																																																																														    width: 150px;
-																																																																														        height: 23px;
-																																																																														}
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
 
-																																																																														.igemono2 {
-																																																																															    margin-left: 20px;
-																																																																															        float: left;
-																																																																															}
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+}
 
-																																																																															.igemono2 > img{
-																																																																																    border: 1.5px solid black;
-																																																																															    }
+.menu li:hover > ul { opacity: 1; }
 
-																																																																															    .button2 {
-																																																																																        position: absolute;
-																																																																																	    margin-left: -175px;
-																																																																																	        margin-top: 215px;
-																																																																																		    width: 150px;
-																																																																																		        height: 23px;
-																																																																																		}
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+    
 
-																																																																																		.igemono3 {
-																																																																																			    margin-left: 20px;
-																																																																																			        float: left;
-																																																																																			}
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
 
-																																																																																			.igemono3 > img{
-																																																																																				    border: 1.5px solid black;
-																																																																																			    }
+.menu li:hover > ul li {
+	height: 36px;
+	overflow: visible;
+	padding: 0;
+}
 
-																																																																																			    .button3 {
-																																																																																				        position: absolute;
-																																																																																					    margin-left: -175px;
-																																																																																					        margin-top: 215px;
-																																																																																						    width: 150px;
-																																																																																						        height: 23px;
-																																																																																						}
+.menu ul li a {
+	width: 220px;
+    font-size: 15px;
+	
+	margin: 0;
 
-																																																																																						.igemono4 {
-																																																																																							    margin-left: 20px;
-																																																																																							        float: left;
-																																																																																							}
+	border: none;
+	border-bottom: 1px solid white;
+}
 
-																																																																																							.igemono4 > img{
-																																																																																								    border: 1.5px solid black;
-																																																																																							    }
+.menu ul li:last-child a { border: none; }
 
-																																																																																							    .button4 {
-																																																																																								        position: absolute;
-																																																																																									    margin-left: -175px;
-																																																																																									        margin-top: 215px;
-																																																																																										    width: 150px;
-																																																																																										        height: 23px;
-																																																																																										}
+.igemono1 {
+    margin-left: 300px;
+    float: left;
+}
 
-																																																																																										.igemono5 {
-																																																																																											    margin-left: 20px;
-																																																																																											        float: left;
-																																																																																											}
+.igemono1 > img{
+    border: 1.5px solid black;
+}
 
-																																																																																											.igemono5 > img{
-																																																																																												    border: 1.5px solid black;
-																																																																																											    }
+.button1 {
+    position: absolute;
+    margin-left: -173px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
 
-																																																																																											    .button5 {
-																																																																																												        position: absolute;
-																																																																																													    margin-left: -175px;
-																																																																																													        margin-top: 215px;
-																																																																																														    width: 150px;
-																																																																																														        height: 23px;
-																																																																																														}
+.igemono2 {
+    margin-left: 20px;
+    float: left;
+}
 
-																																																																																														.igemono6 {
-																																																																																															    margin-left: 20px;
-																																																																																															        float: left;
-																																																																																															}
+.igemono2 > img{
+    border: 1.5px solid black;
+}
 
-																																																																																															.igemono6 > img{
-																																																																																																    border: 1.5px solid black;
-																																																																																															    }
+.button2 {
+    position: absolute;
+    margin-left: -175px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
 
-																																																																																															    .button6 {
-																																																																																																        position: absolute;
-																																																																																																	    margin-left: -175px;
-																																																																																																	        margin-top: 215px;
-																																																																																																		    width: 150px;
-																																																																																																		        height: 23px;
-																																																																																																		}
+.igemono3 {
+    margin-left: 20px;
+    float: left;
+}
 
-																																																																																																		.banner_1 {
-																																																																																																			    margin-left: 370px;
-																																																																																																			        margin-top: 200px;
-																																																																																																				    float: left;
-																																																																																																			    }
+.igemono3 > img{
+    border: 1.5px solid black;
+}
 
-																																																																																																			    .shop_move {
-																																																																																																				        float: left;
-																																																																																																					    margin-top: 120px;
-																																																																																																					        margin-left: 240px;
-																																																																																																					}
+.button3 {
+    position: absolute;
+    margin-left: -175px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
 
-																																																																																																					.shop_moving {
-																																																																																																						    font-size: 30px;
-																																																																																																						        font-weight: 600;
-																																																																																																						}
+.igemono4 {
+    margin-left: 20px;
+    float: left;
+}
 
-																																																																																																						.line {
-																																																																																																							    float: left;
-																																																																																																							        width: 600px;
-																																																																																																								    margin-left: 0px;
-																																																																																																								        margin-top: 25px;
-																																																																																																									    height: 5px;
-																																																																																																									        background: black;
-																																																																																																									}
+.igemono4 > img{
+    border: 1.5px solid black;
+}
 
-																																																																																																									.line2 {
-																																																																																																										    float: right;
-																																																																																																										        width: 600px;
-																																																																																																											    margin-left: 0px;
-																																																																																																											        margin-top: 25px;
-																																																																																																												    height: 5px;
-																																																																																																												        background: black;
-																																																																																																												}
+.button4 {
+    position: absolute;
+    margin-left: -175px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
 
-																																																																																																												.banner_2 {
-																																																																																																													    float: left;
-																																																																																																													        margin-left: 200px;
-																																																																																																													}
+.igemono5 {
+    margin-left: 20px;
+    float: left;
+}
 
-																																																																																																													.banner_2 > img {
-																																																																																																														    width: 650px;
-																																																																																																														        margin-left: 150px;
-																																																																																																														}
+.igemono5 > img{
+    border: 1.5px solid black;
+}
 
+.button5 {
+    position: absolute;
+    margin-left: -175px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
+
+.igemono6 {
+    margin-left: 20px;
+    float: left;
+}
+
+.igemono6 > img{
+    border: 1.5px solid black;
+}
+
+.button6 {
+    position: absolute;
+    margin-left: -175px;
+    margin-top: 215px;
+    width: 150px;
+    height: 23px;
+}
+
+.banner_1 {
+    margin-left: 370px;
+    margin-top: 200px;
+    float: left;
+}
+
+.shop_move {
+    float: left;
+    margin-top: 120px;
+    margin-left: 240px;
+}
+
+.shop_moving {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.line {
+    float: left;
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 25px;
+    height: 5px;
+    background: black;
+}
+
+.line2 {
+    float: right;
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 25px;
+    height: 5px;
+    background: black;
+}
+
+.banner_2 {
+    float: left;
+    margin-left: 200px;
+}
+
+.banner_2 > img {
+    width: 650px;
+    margin-left: 150px;
+}
